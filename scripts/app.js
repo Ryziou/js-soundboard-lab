@@ -30,14 +30,3 @@ btnElement.forEach((audioBtn) => {
 
 // ! Executions
 
-
-
-nameElement.forEach((nameId) => {
-    nameId.addEventListener('mouseover', () => {
-        nameHereElement.textContent = nameId.textContent
-    })
-
-    nameId.addEventListener('mouseleave', () => {
-        nameHereElement.textContent = '';
-    })
-})
